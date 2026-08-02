@@ -1,0 +1,13 @@
+# Event-Driven Otomatik Trade Botu — proje.py için gerekli kütüphaneler
+# Kurulum: ~/Desktop/quant_projeleri/.venv içinde uv pip ile kuruludur, yeniden kurmak için:
+#   VIRTUAL_ENV=~/Desktop/quant_projeleri/.venv uv pip install -r requirements.txt
+
+yfinance==1.5.2          # NVDA günlük fiyat verisi
+pandas==3.0.5             # veri çerçeveleri, getiri hesapları
+numpy==2.4.6               # sayısal işlemler
+plotly==6.9.0              # 6 görselin html/png üretimi
+kaleido==1.3.0              # plotly'nin statik PNG export motoru
+requests==2.34.2            # Finnhub REST API çağrıları
+python-dotenv==1.2.2        # .env dosyasından API anahtarlarını yükleme
+backtesting==0.6.6          # olay-tetikli momentum stratejisinin backtesti
+alpaca-py==0.43.5           # Alpaca paper trading bağlantısı ve demo emri

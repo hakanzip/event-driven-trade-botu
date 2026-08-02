@@ -1,0 +1,23 @@
+{
+  "baglanti_basarili": true,
+  "hesap": {
+    "durum": "AccountStatus.ACTIVE",
+    "nakit": 100000.0,
+    "alim_gucu": 400000.0,
+    "portfoy_degeri": 100000.0
+  },
+  "piyasa_acik_mi": false,
+  "emir_gonderildi": true,
+  "emir": {
+    "id": "38dc7248-3424-4826-ae38-f30959517d6e",
+    "sembol": "NVDA",
+    "adet": 1.0,
+    "yon": "OrderSide.BUY",
+    "tip": "OrderType.MARKET",
+    "durum": "OrderStatus.ACCEPTED",
+    "gonderim_zamani": "2026-08-01 15:48:20.043248+00:00",
+    "dolan_fiyat": null
+  },
+  "hata": null,
+  "sonraki_acilis": "2026-08-03 09:30:00-04:00"
+}
